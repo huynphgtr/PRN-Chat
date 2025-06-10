@@ -18,7 +18,7 @@ A modern chat platform built with WPF (.NET 9), featuring user authentication, f
 
 ### Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [.NET 9 SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio 2022 or later](https://visualstudio.microsoft.com/)
 - [Supabase account](https://supabase.com/) with project and API keys
 
