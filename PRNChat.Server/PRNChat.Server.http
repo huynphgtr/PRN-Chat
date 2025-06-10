@@ -1,0 +1,6 @@
+@PRNChat.Server_HostAddress = http://localhost:5100
+
+GET {{PRNChat.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

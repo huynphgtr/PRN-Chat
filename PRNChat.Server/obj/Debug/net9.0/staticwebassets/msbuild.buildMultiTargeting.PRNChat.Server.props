@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PRNChat.Server.props" />
+</Project>
