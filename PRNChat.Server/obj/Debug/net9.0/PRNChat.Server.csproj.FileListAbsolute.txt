@@ -33,3 +33,4 @@ D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Server\obj\Debug\net
 D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Server\obj\Debug\net9.0\PRNChat.Server.pdb
 D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Server\obj\Debug\net9.0\PRNChat.Server.genruntimeconfig.cache
 D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Server\obj\Debug\net9.0\ref\PRNChat.Server.dll
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Server\obj\Debug\net9.0\PRNChat.Server.sourcelink.json
