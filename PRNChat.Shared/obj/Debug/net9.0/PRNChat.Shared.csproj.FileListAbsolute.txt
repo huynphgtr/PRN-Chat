@@ -9,3 +9,4 @@ D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net
 D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\refint\PRNChat.Shared.dll
 D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.pdb
 D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\ref\PRNChat.Shared.dll
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.sourcelink.json
