@@ -50,7 +50,7 @@ A modern chat platform built with WPF (.NET 9), featuring user authentication, f
 
 ## Technologies Used
 
-- **.NET 8 / WPF**: Modern desktop UI framework
+- **.NET 9 / WPF**: Modern desktop UI framework
 - **Supabase**: Authentication and real-time database
 - **MVVM Pattern**: Clean separation of UI and logic
 
