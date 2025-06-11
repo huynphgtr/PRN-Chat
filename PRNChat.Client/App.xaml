@@ -4,6 +4,15 @@
              xmlns:local="clr-namespace:PRNChat.Client"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/ButtonStyles.xaml"/>
+                <ResourceDictionary Source="Resources/ColorStyles.xaml"/>
+                <ResourceDictionary Source="Resources/TemplateStyles.xaml"/>
+                <ResourceDictionary Source="Resources/TextStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
+    
+    
 </Application>

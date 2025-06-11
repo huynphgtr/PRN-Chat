@@ -9,7 +9,6 @@
     <Folder Include="Navigation\" />
     <Folder Include="Helpers\" />
     <Folder Include="Config\" />
-    <Folder Include="Resources\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\" />
