@@ -1,41 +1,48 @@
+// PRNChat.Server/Program.cs
+using PRNChat.Server.Config;
+using PRNChat.Server.Services;
+using PRNChat.Shared.Interfaces;
+using Supabase;
+using SupabaseOptions = Supabase.SupabaseOptions;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// Đọc cấu hình
+var supabaseConfig = builder.Configuration.GetSection("Supabase").Get<SupabaseConfig>();
+if (supabaseConfig == null)
+    throw new InvalidOperationException("Supabase configuration is missing");
+
+// Thêm dịch vụ
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Đăng ký Supabase Client
+builder.Services.AddSingleton(provider =>
+{
+    // ...
+    return new Client(supabaseConfig.Url, supabaseConfig.Key, new SupabaseOptions { /* ... */ });
+});
+
+// Đăng ký các service
+builder.Services.AddScoped<IAuthService, SupabaseAuthService>();
+builder.Services.AddScoped<IChatService, SupabaseChatService>();
+builder.Services.AddScoped<IUserService, SupabaseUserService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// ...
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+// Khởi tạo Supabase client
+await app.Services.GetRequiredService<Client>().InitializeAsync();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

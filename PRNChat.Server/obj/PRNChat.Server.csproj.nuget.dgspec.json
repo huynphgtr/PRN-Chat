@@ -1,39 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj": {}
+    "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj": {}
   },
   "projects": {
-    "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj": {
+    "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj",
+        "projectUniqueName": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj",
         "projectName": "PRNChat.Server",
-        "projectPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Server\\obj\\",
+        "projectPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Server\\PRNChat.Server.csproj",
+        "packagesPath": "C:\\Users\\PTCuong\\.nuget\\packages\\",
+        "outputPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PTCuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj": {
-                "projectPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj"
+              "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj": {
+                "projectPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj"
               }
             }
           }
@@ -48,15 +48,23 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.17, )"
+            },
+            "Supabase": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -78,37 +86,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj": {
+    "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj",
+        "projectUniqueName": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj",
         "projectName": "PRNChat.Shared",
-        "projectPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\obj\\",
+        "projectPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj",
+        "packagesPath": "C:\\Users\\PTCuong\\.nuget\\packages\\",
+        "outputPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PTCuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -122,11 +130,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -143,7 +151,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

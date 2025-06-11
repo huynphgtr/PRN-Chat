@@ -4,20 +4,9 @@
     <ProjectReference Include="..\PRNChat.Shared\PRNChat.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UIModels\" />
-    <Folder Include="Navigation\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Config\" />
-    <Folder Include="Resources\" />
-    <Folder Include="Services\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\" />
-  </ItemGroup>
-
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net9.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
