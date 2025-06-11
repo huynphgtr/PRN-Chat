@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net9.0-windows7.0": {
+    "net8.0-windows7.0": {
       "PRNChat.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/PRNChat.Shared.dll": {}
         },
@@ -22,44 +22,44 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0-windows7.0": [
+    "net8.0-windows7.0": [
       "PRNChat.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Users\\PTCuong\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\PRNChat.Client.csproj",
+      "projectUniqueName": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Client\\PRNChat.Client.csproj",
       "projectName": "PRNChat.Client",
-      "projectPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\PRNChat.Client.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\obj\\",
+      "projectPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Client\\PRNChat.Client.csproj",
+      "packagesPath": "C:\\Users\\PTCuong\\.nuget\\packages\\",
+      "outputPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PTCuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0-windows"
+        "net8.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0-windows7.0": {
-          "targetAlias": "net9.0-windows",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj": {
-              "projectPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj"
+            "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj": {
+              "projectPath": "D:\\FPTU\\StudyMaterials\\Summer 25\\PRN212\\TeamProject\\PRNChat\\PRNChat.Shared\\PRNChat.Shared.csproj"
             }
           }
         }
@@ -74,11 +74,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net9.0-windows7.0": {
-        "targetAlias": "net9.0-windows",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -98,7 +98,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
