@@ -1,0 +1,12 @@
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\bin\Debug\net9.0\PRNChat.Shared.deps.json
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\bin\Debug\net9.0\PRNChat.Shared.dll
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\bin\Debug\net9.0\PRNChat.Shared.pdb
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.AssemblyInfoInputs.cache
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.AssemblyInfo.cs
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.csproj.CoreCompileInputs.cache
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.dll
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\refint\PRNChat.Shared.dll
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.pdb
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\ref\PRNChat.Shared.dll
+D:\summer2025.fpt\PRN212\PRN Project\WPFApp\PRNChat\PRNChat.Shared\obj\Debug\net9.0\PRNChat.Shared.sourcelink.json
