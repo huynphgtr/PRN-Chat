@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|d:\\summer2025.fpt\\prn212\\prn project\\wpfapp\\prnchat\\prnchat.client\\resources\\textstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|solutionrelative:prnchat.client\\resources\\textstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|d:\\summer2025.fpt\\prn212\\prn project\\wpfapp\\prnchat\\prnchat.client\\resources\\templatestyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|solutionrelative:prnchat.client\\resources\\templatestyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|d:\\summer2025.fpt\\prn212\\prn project\\wpfapp\\prnchat\\prnchat.client\\views\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|solutionrelative:prnchat.client\\views\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|d:\\summer2025.fpt\\prn212\\prn project\\wpfapp\\prnchat\\prnchat.client\\resources\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|solutionrelative:prnchat.client\\resources\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|d:\\summer2025.fpt\\prn212\\prn project\\wpfapp\\prnchat\\prnchat.client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56ECD2FB-A01F-45F9-8F02-8811C4D5CA9E}|PRNChat.Client\\PRNChat.Client.csproj|solutionrelative:prnchat.client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,7 +38,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TemplateStyles.xaml",
+              "DocumentMoniker": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Resources\\TemplateStyles.xaml",
+              "RelativeDocumentMoniker": "PRNChat.Client\\Resources\\TemplateStyles.xaml",
+              "ToolTip": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Resources\\TemplateStyles.xaml",
+              "RelativeToolTip": "PRNChat.Client\\Resources\\TemplateStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T01:50:53.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Views\\Page1.xaml",
+              "RelativeDocumentMoniker": "PRNChat.Client\\Views\\Page1.xaml",
+              "ToolTip": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Views\\Page1.xaml",
+              "RelativeToolTip": "PRNChat.Client\\Views\\Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-11T09:54:11.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TextStyles.xaml",
+              "DocumentMoniker": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Resources\\TextStyles.xaml",
+              "RelativeDocumentMoniker": "PRNChat.Client\\Resources\\TextStyles.xaml",
+              "ToolTip": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Resources\\TextStyles.xaml",
+              "RelativeToolTip": "PRNChat.Client\\Resources\\TextStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-11T09:42:51.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ButtonStyles.xaml",
+              "DocumentMoniker": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Resources\\ButtonStyles.xaml",
+              "RelativeDocumentMoniker": "PRNChat.Client\\Resources\\ButtonStyles.xaml",
+              "ToolTip": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\Resources\\ButtonStyles.xaml",
+              "RelativeToolTip": "PRNChat.Client\\Resources\\ButtonStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-11T09:38:11.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\summer2025.fpt\\PRN212\\PRN Project\\WPFApp\\PRNChat\\PRNChat.Client\\App.xaml",
               "RelativeDocumentMoniker": "PRNChat.Client\\App.xaml",

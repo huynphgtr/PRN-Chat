@@ -1,4 +1,35 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
+    <!-- Font Families -->
+    <FontFamily x:Key="PrimaryFont">Poppins</FontFamily>
+
+    <!-- Heading -->
+    <Style x:Key="Heading" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource PrimaryFont}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="{StaticResource PrimaryPink}" />
+    </Style>
+
+    <!-- Subheading -->
+    <Style x:Key="Subheading" TargetType="TextBlock" BasedOn="{StaticResource Heading}">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{StaticResource Black}" />
+    </Style>
+
+    <!-- Body -->
+    <Style x:Key="Body" TargetType="TextBlock" BasedOn="{StaticResource Heading}">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="Foreground" Value="{StaticResource Black}" />
+    </Style>
+
+    <!-- Caption -->
+    <Style x:Key="Caption" TargetType="TextBlock" BasedOn="{StaticResource Heading}">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="Foreground" Value="{StaticResource LightGray}" />
+    </Style>
+
 </ResourceDictionary>
