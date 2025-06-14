@@ -1,6 +1,6 @@
 # PRNChat
 
-A modern chat platform built with WPF (.NET 9), featuring user authentication, friend management, group chat, and AI bot interaction. Supabase is used for authentication and chat history storage.
+A modern chat platform built with WPF (.NET 8), featuring user authentication, friend management, group chat, and AI bot interaction. Supabase is used for authentication and chat history storage.
 
 ---
 
@@ -18,7 +18,7 @@ A modern chat platform built with WPF (.NET 9), featuring user authentication, f
 
 ### Prerequisites
 
-- [.NET 9 SDK](https://dotnet.microsoft.com/download)
+- [.NET 8 SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio 2022 or later](https://visualstudio.microsoft.com/)
 - [Supabase account](https://supabase.com/) with project and API keys
 
@@ -50,7 +50,7 @@ A modern chat platform built with WPF (.NET 9), featuring user authentication, f
 
 ## Technologies Used
 
-- **.NET 9 / WPF**: Modern desktop UI framework
+- **.NET 8 / WPF**: Modern desktop UI framework
 - **Supabase**: Authentication and real-time database
 - **MVVM Pattern**: Clean separation of UI and logic
 
