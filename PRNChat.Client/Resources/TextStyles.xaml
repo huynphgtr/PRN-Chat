@@ -1,0 +1,55 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ColorStyles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!-- Font Families -->
+    <FontFamily x:Key="PrimaryFont">Poppins</FontFamily>
+
+    <!-- Text -->
+    <Style x:Key="CommonText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource PrimaryFont}" />
+        <Setter Property="FontSize" Value="50" />
+        <Setter Property="FontWeight" Value="Bold"/>      
+    </Style>
+
+    <!--Heading-->
+    <Style x:Key="Heading" TargetType="TextBlock" BasedOn="{StaticResource CommonText}">
+        <Setter Property="FontFamily" Value="{StaticResource PrimaryFont}" />
+        <Setter Property="Foreground" Value="{StaticResource PrimaryPink}" />
+    </Style>
+
+    <Style x:Key="Title" TargetType="TextBlock" BasedOn="{StaticResource Heading}">        
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="20,0,0,0"/>
+    </Style>
+
+    <!-- Subheading -->
+    <Style x:Key="Subheading" TargetType="TextBlock" BasedOn="{StaticResource CommonText}">
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{StaticResource Black}" />
+    </Style>
+
+    <!-- Body -->
+    <Style x:Key="Body" TargetType="TextBlock" BasedOn="{StaticResource CommonText}">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="Foreground" Value="{StaticResource Black}" />
+    </Style>
+
+    <Style x:Key="PinkBody" TargetType="TextBlock" BasedOn="{StaticResource Body}">
+        <Setter Property="Foreground" Value="{StaticResource PrimaryPink}" />
+    </Style>
+
+    <!-- Caption -->
+    <Style x:Key="Caption" TargetType="TextBlock" BasedOn="{StaticResource CommonText}">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="Foreground" Value="{StaticResource LightGray}" />
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,40 @@
+﻿<Window x:Class="PRNChat.Client.View.Function.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRNChat.Client.View.Function"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="Manual"        
+        ResizeMode="CanResize"
+        MinWidth="600" MinHeight="450"
+        Title="PRNChat" Height="500" Width="1000">
+    <Grid>
+        <Grid RenderTransformOrigin="0.494,0.507" Background="{StaticResource BackgroundPink}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Welcome to PRNChat App"
+                Style="{StaticResource Heading}"
+                HorizontalAlignment="Center"
+                Margin="0,113,0,293" Grid.Row="1" Width="628"/>
+            <TextBlock Text="Your new favorite way to connect. Simple, secure, and designed for seamless conversations."
+                       Style="{StaticResource Subheading}"
+                       HorizontalAlignment="Center"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Margin="0,196,0,213"
+                       Grid.Row="1"
+                       Width="404"/>
+            <Button Content="Start now" Style="{StaticResource CommonButton}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="0,317,0,0" Grid.Row="1" Width="454" Height="37" RenderTransformOrigin="0.5,0.5">
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
+
+  

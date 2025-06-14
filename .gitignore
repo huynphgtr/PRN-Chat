@@ -1,0 +1,20 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore VS specific files
+.vs/
+*.user
+*.suo
+
+# Ignore DLLs and EXEs
+*.dll
+*.exe
+
+# Ignore logs, temp files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
